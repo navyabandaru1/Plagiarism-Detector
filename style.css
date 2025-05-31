@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #c3ecf7, #e8d0f0);
+    color: #333;
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4c46d3;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4c46d3;
+}
+
+/* Result Message */
+.result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #2d3436;
+}
+
+textarea:focus {
+    outline: none;                          /* Removes the default blue border */
+    border: 2px solid #6c63ff;              /* Adds a stylish purple border */
+    background-color: #f9f9ff;              /* Slight background color change */
+    transition: 0.3s;                       /* Makes the change smooth */
+}
+
+/* Smooth animations for everything */
+body, button, textarea {
+    transition: all 0.3s ease-in-out;       /* Soft animation on hover/clicks */
+}
+
+/* Make the button grow a bit when hovered */
+button:hover {
+    transform: scale(1.05);                /* Grows the button slightly */
+}
+
